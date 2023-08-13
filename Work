@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <meta cahrset="UTF-8f">  
+        <title>Learn HTML</title>
+     </head>
+     <body>
+        <style>
+                .helloworld {
+                    color:blueviolet
+                }
+
+                .underline {
+                    text-decoration: underline;
+                }
+        </style>
+        <header class="hfelloworld">
+            <h1>Learn HTML</h1>
+            <p>By Sergio Perez</p>
+        </header>
+        <section>
+            <h2>Learning HTML</h2>
+            <p>Hi this is my journey to learn how to do HTML</p>
+        </section>
+
+        <footer>
+            <p>Sergio perez -<span class="underline">Copyright 2023</span> </p>
+        </footer>
+     </body>
+     </html>
