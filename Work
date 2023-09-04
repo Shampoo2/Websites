@@ -14,7 +14,7 @@
                     text-decoration: underline;
                 }
         </style>
-        <header class="hfelloworld">
+        <header class="helloworld" id="Top">
             <h1>Learn HTML</h1>
             <p>By Sergio Perez</p>
         </header>
@@ -23,8 +23,42 @@
             <p>Hi this is my journey to learn how to do HTML</p>
         </section>
 
+
+        <picture>
+           <source srcset="https://placekittne.com/400">
+           <img src="https://placekitten.com/200" alt="confused" title="a confused kitten">
+
+        </picture>
+        
+
+        <video width="100%" height="100%" poster="https://placehold.it/1200x500" controls="">
+<source src="https://youtu.be/GE2qnXC8UMg"
+        type="video/mp4">
+    </video>
+
+        <form>
+            <label for="name">Name:</label>
+            <input name="name" type="text">
+
+            <label for="email">email:</label>
+            <input type="email" name="email">
+
+            <label for="telephone"> tel:</label>
+            <input name="telephone" type="number">
+
+            <select>
+                <option>choice 1</option>
+                <option>choice 2</option>
+                <option>choice 3</option>
+            </select>
+
+            <label for="termsandservices">do you agree to our terms and services?</label>
+            <input type="checkbox">
+            <button>submit</button>
+        </form>
         <footer>
             <p>Sergio perez -<span class="underline">Copyright 2023</span> </p>
+            <a href="#top">Top</a>
         </footer>
      </body>
      </html>
